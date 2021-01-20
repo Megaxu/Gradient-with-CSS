@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    min-height: 90vh;
+    width: 100%;
+
+    /* background-image: linear-gradient(45deg, red, orange, yellow, green, aqua, blue, purple);  */
+    /* радуга */
+
+    /* background-image: linear-gradient(45deg, #7FDA59 25%, #000 25%, #000 50%, #7FDA59 50%, #7FDA59 75%, #000 75%); */
+    /* полоска */
+
+    /* background-image: linear-gradient(45deg, #7FDA59 20%, #000 25%, #000 45%, #7FDA59 50%, #7FDA59 70%, #000 75%); */
+    /* полоска с переходом*/
+
+    /* background-image: repeating-linear-gradient(45deg, #7FDA59 25px, #000 25px, #000 50px, #7FDA59 50px, #7FDA59 75px, #000 75px); */
+    /* репитер с одинаковыми линиями */
+
+    /* background-image: repeating-linear-gradient(45deg, #7FDA59 25px, #000 25px, #000 75px, #7FDA59 75px, #7FDA59 100px); */
+    /* репитер с разными линиями */
+
+    background-image: radial-gradient(circle, #7FDA59, #000);
+    /* круговой  */
+
+    /* background-image: radial-gradient(ellipse, #7FDA59, #000); */
+    /* эллипс */
+
+    /* background-image: radial-gradient(circle closest-side, #7FDA59, #000); */
+    /* в центр */
+
+    /* background-image: radial-gradient(circle closest-corner, #7FDA59, #000); */
+    /* с жестким переходом */
+
+    /* background-image: radial-gradient(circle, #7FDA59 30%, #000 70%); */
+    /* в пропорции */
+
+    /* background-image: repeating-radial-gradient(circle, #7FDA59 10px, #000 20px); */
+    /* повтортель */
+
+    /* background-image: repeating-radial-gradient(circle, #7FDA59 10px, #000 10px, #000 20px, #7FDA59 20px, #7FDA59 30px, #000 30px); */
+    /* повтортель с жестким переходом*/
+}
